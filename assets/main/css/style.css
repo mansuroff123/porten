@@ -91,3 +91,12 @@
   background-color: #1F1F1F;
 }
 /* ---------------- Navbar Section End  ---------------- */
+
+/* ---------------- Home Section Begin  ---------------- */
+.home {
+  background-image: url('../imgs/home.jpg');
+  width: 100%;
+  height: calc(100vh - 113px);
+  background-repeat: no-repeat;
+}
+/* ---------------- Home Section End  ---------------- */
