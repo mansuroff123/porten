@@ -136,7 +136,7 @@
 /* ---------------- Season Section Begin  ---------------- */
 .watch {
   background-color: black;
-  width: 55%;
+  /* width: 55%; */
 }
 .watch_header {
   font-family: 'Playfair Display';
@@ -174,7 +174,7 @@
 
 .new_collection {
   background-image: url("../imgs/collection.jpg");
-  width: 45%;
+  /* width: 45%; */
   height: auto;
   background-repeat: no-repeat;
 }
