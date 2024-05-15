@@ -195,8 +195,28 @@
 /* ---------------- Season Section End  ---------------- */
 
 
+/* ---------------- Collection Section Begin  ---------------- */
+.collect_img {
+  background-image: url("../imgs/colletction_2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.collect_text {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+/* ---------------- Collection Section End  ---------------- */
+
+
+
 @media screen and (max-width: 992px) {
   .new_collection {
+    height: 500px;
+  }
+  .collect_img {
     height: 500px;
   }
 }
