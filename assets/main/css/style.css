@@ -95,6 +95,7 @@
 /* ---------------- Home Section Begin  ---------------- */
 .home {
   background-image: url('../imgs/home.jpg');
+  background-size: cover;
   width: 100%;
   height: calc(100vh - 113px);
   background-repeat: no-repeat;
@@ -136,7 +137,6 @@
 /* ---------------- Season Section Begin  ---------------- */
 .watch {
   background-color: black;
-  /* width: 55%; */
 }
 .watch_header {
   font-family: 'Playfair Display';
@@ -174,8 +174,8 @@
 
 .new_collection {
   background-image: url("../imgs/collection.jpg");
-  /* width: 45%; */
   height: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -193,3 +193,10 @@
 }
 
 /* ---------------- Season Section End  ---------------- */
+
+
+@media screen and (max-width: 992px) {
+  .new_collection {
+    height: 500px;
+  }
+}
