@@ -211,6 +211,13 @@
 /* ---------------- Collection Section End  ---------------- */
 
 
+/* ---------------- Brand Section Begin  ---------------- */
+.brand {
+  background-color: #0f0f0f;
+}
+/* ---------------- Brand Section End  ---------------- */
+
+
 
 @media screen and (max-width: 992px) {
   .new_collection {
