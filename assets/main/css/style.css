@@ -218,6 +218,21 @@
 /* ---------------- Brand Section End  ---------------- */
 
 
+/* ---------------- Footer Section Begin  ---------------- */
+.footer_img {
+  background-image: url("../imgs/footer.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.footer_header {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+/* ---------------- Footer Section End  ---------------- */
+
+
 
 @media screen and (max-width: 992px) {
   .new_collection {
