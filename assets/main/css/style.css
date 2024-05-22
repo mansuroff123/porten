@@ -230,6 +230,45 @@
   font-weight: 400;
   color: white;
 }
+.footer_btn {
+  /* font-family: "PT Sans"; */
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  display: inline-block;
+  background-color: #0F0F0F;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.footer_btn:hover {
+  background-color: #1F1F1F;
+}
+
+.footer_control {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0;
+}
+
+.footer_control::placeholder {
+  color: rgba(192, 192, 192);
+}
+.footer_control:focus {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+}
+
+.subscribe_btn {
+  padding: 8px 20px;
+  border: none;
+  background-color: #0F0F0F;
+  color: #fff;
+}
+.subscribe_btn:hover {
+  background-color: #1f1f1f;
+}
+
 /* ---------------- Footer Section End  ---------------- */
 
 
