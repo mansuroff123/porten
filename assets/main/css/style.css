@@ -339,4 +339,7 @@
     display: flex;
     justify-content: center;
   }
+  .watch_header {
+    font-size: 24px;
+  }
 }
